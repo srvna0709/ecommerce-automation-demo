@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Ecommerce Automation Test Suite" verbose="1" parallel="false">
+    
+    <test name="Complete Test Suite - All Scenarios" preserve-order="true">
+        <classes>
+            <!-- Scenario 1: Product Order Flow -->
+            <class name="com.automation.tests.ProductOrderTest">
+                <methods>
+                    <include name="testProductOrderCompleteFlow"/>
+                </methods>
+            </class>
+            
+            <!-- Scenario 2: Add Product Review -->
+            <class name="com.automation.tests.AddProductReviewTest">
+                <methods>
+                    <include name="testAddProductReview"/>
+                </methods>
+            </class>
+            
+            <!-- Scenario 3: View & Cart Brand Products -->
+            <class name="com.automation.tests.ViewCartBrandProductsTest">
+                <methods>
+                    <include name="testViewCartBrandProducts"/>
+                </methods>
+            </class>
+            
+            <!-- Scenario 4: Scroll Up/Down Functionality -->
+            <class name="com.automation.tests.ScrollUpDownTest">
+                <methods>
+                    <include name="testScrollUpDownFunctionality"/>
+                </methods>
+            </class>
+            
+            <!-- Scenario 5: File Write Test Cases -->
+            <class name="com.automation.tests.FileWriteTestCasesTest">
+                <methods>
+                    <include name="testFileWriteTestCases"/>
+                </methods>
+            </class>
+
+            <!-- Scenario 6: Gmail Login Test -->
+            <!-- <class name="com.automation.tests.GmailLoginTest">
+                <methods>
+                    <include name="gmailLoginTest"/>
+                </methods>
+            </class> -->
+
+            <!-- Scenario 7: Gmail Compose & Send Email Test -->
+            <!-- <class name="com.automation.tests.GmailComposeEmailTest">
+                <methods>
+                    <include name="gmailComposeEmailTest"/>
+                </methods>
+            </class> -->
+
+        </classes>
+    </test>
+    
+</suite>
