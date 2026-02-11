@@ -53,14 +53,6 @@ mvn clean test
 ✅ Stores file in project folder
 ✅ Logs out and verifies
 
-## Performance
-
-⚡ **Optimized for Speed**
-- Reduced wait times (3-5x faster)
-- Smart page load strategy
-- Efficient element interactions
-- All 5 scenarios complete in ~3-5 minutes
-
 ## Test Credentials
 - Email: 
 - Password: 
@@ -80,4 +72,3 @@ See detailed README.md for:
 - TestNG features demonstrated
 
 ---
-Happy Testing! 🚀
