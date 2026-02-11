@@ -390,4 +390,4 @@ For issues or questions:
 
 ---
 
-**Built with ❤️ using Selenium, TestNG, and Page Object Model**
+**Built using Selenium, TestNG, and Page Object Model**
