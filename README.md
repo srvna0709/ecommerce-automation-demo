@@ -196,8 +196,8 @@ Edit `src/test/resources/config.properties`:
 ```properties
 baseUrl=https://automationexercise.com
 browser=chrome
-email=testdart117@mailinator.com
-password=Human
+email=
+password=
 ```
 
 ## Running Tests
@@ -327,7 +327,7 @@ PASSED: testProductOrderCompleteFlow
 - Verifies expected text: "Hi Tester" and "Your total purchase amount"
 
 ### 4. Login Credentials
-- Default: testdart117@mailinator.com / Human
+- Default: 
 - Can be changed in config.properties
 - Ensure account exists before running tests
 
