@@ -62,8 +62,8 @@ mvn clean test
 - All 5 scenarios complete in ~3-5 minutes
 
 ## Test Credentials
-- Email: testdart117@mailinator.com
-- Password: Human
+- Email: 
+- Password: 
 
 ## Customization
 Edit `src/test/resources/config.properties` to change:
